@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Loading...</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      overflow: hidden;
+    }
+    .background {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: url('https://i.ibb.co/20kc7tyv/1.jpg') no-repeat center center;
+      background-size: cover;
+      z-index: -1;
+    }
+    .text {
+      position: absolute;
+      bottom: 30px;
+      width: 100%;
+      text-align: center;
+      font-family: sans-serif;
+      color: white;
+      font-size: 20px;
+      text-shadow: 0 0 10px black;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="text">Завантаження серверу, будь ласка, почекайте...</div>
+</body>
+</html>
